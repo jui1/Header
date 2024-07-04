@@ -16,38 +16,33 @@
   color: red;
 }
 
-.bgc{
+.bgc {
   padding: 1px;
   border-radius: 5px;
-   
-  text-align: center;
 }
 
-.bgc:hover{
-  
+.bgc:hover {
   background: #f11313;
- 
- 
-
-
 }
 
-.bgb:hover{
+.bgb:hover {
   color: aliceblue;
   font-weight: bold;
 }
-.row-reverse{
-  flex-direction: row-reverse;
-}
-
 
 .profileIcon {
   font-size: 20px;
   color: rgb(172, 5, 5);
-  transition: color 0.3s; 
+  transition: color 0.3s;
 }
 
 .profileIcon:hover {
   color: white;
-  
+}
+
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+ 
 }
