@@ -1,0 +1,53 @@
+.link-button {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+}
+
+.iconn {
+  font-size: 20px;
+}
+
+.iconn:hover {
+  color: red;
+}
+
+.bgc{
+  padding: 1px;
+  border-radius: 5px;
+   
+  text-align: center;
+}
+
+.bgc:hover{
+  
+  background: #f11313;
+ 
+ 
+
+
+}
+
+.bgb:hover{
+  color: aliceblue;
+  font-weight: bold;
+}
+.row-reverse{
+  flex-direction: row-reverse;
+}
+
+
+.profileIcon {
+  font-size: 20px;
+  color: rgb(172, 5, 5);
+  transition: color 0.3s; 
+}
+
+.profileIcon:hover {
+  color: white;
+  
+}
