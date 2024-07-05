@@ -6,9 +6,9 @@ import style from './Header.module.css';
 
 function Header() {
     return (
-        <div>
+        <div className='container ms-auto '>
             {/* Main Navbar */}
-            <nav className="navbar container navbar-expand-lg navbar-light">
+            <nav className="navbar container navbar-expand-lg navbar-light mx-5 my-4 ">
                 <div className="container">
                     <a className={`navbar-brand fs-4 ${style.logoo}`} href="#"> <img alt="Logo" /></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@ function Header() {
                                     <a className="dropdown-item" href="#">Something else here</a>
                                 </div>
                             </li>
-                            <li className="nav-item dropdown">
+                            <li className="nav-item dropdown ">
                                 <button className={`btn btn-outline-danger btn-custom ${style.icn}`} type="button">
                                     <CgProfile className={style.profileIcon} /> SIGN IN
                                 </button>
@@ -50,13 +50,14 @@ function Header() {
                     </div>
                 </div>
             </nav>
+           
 
             {/* 2nd Navbar */}
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="container">
+            <nav className="navbar  navbar-expand-lg navbar-light bg-light">
+                <div className="text-end mr-auto mx-auto px-2 mx-4">
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mr-auto">
-                            <li className="nav-item active">
+                        <ul className="navbar-nav mr-auto  gx-5">
+                            <li className="nav-item active ml-4">
                                 <a className="nav-link" href="#"><FaHome size={20} className={style.iconn} /></a>
                             </li>
                             <li className={`nav-item ${style.bgc}`}>
@@ -77,7 +78,7 @@ function Header() {
                             <li className={`nav-item ${style.bgc}`}>
                                 <a className={`nav-link ${style.bgb}`} href="#">Insurance</a>
                             </li>
-                            <li className={`nav-item ${style.bgc}`}>
+                            <li className={`nav-item text-end ${style.bgc}`}>
                                 <a className={`nav-link ${style.bgb}`} href="#">Travel Diaries</a>
                             </li>
                         </ul>
