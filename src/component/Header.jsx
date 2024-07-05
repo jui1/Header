@@ -53,8 +53,8 @@ function Header() {
            
 
             {/* 2nd Navbar */}
-            <nav className="navbar  navbar-expand-lg navbar-light bg-light">
-                <div className="text-end mr-auto mx-auto px-2 mx-4">
+            <nav className="navbar   navbar-expand-lg navbar-light bg-light">
+                <div className="text-end mx-10 ">
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto  gx-5">
                             <li className="nav-item active ml-4">
@@ -78,9 +78,9 @@ function Header() {
                             <li className={`nav-item ${style.bgc}`}>
                                 <a className={`nav-link ${style.bgb}`} href="#">Insurance</a>
                             </li>
-                            <li className={`nav-item text-end ${style.bgc}`}>
-                                <a className={`nav-link ${style.bgb}`} href="#">Travel Diaries</a>
-                            </li>
+                            {/* <li className={`nav-item justify-content-end ${style.bgc}`}>
+                                <a className={`nav-link  mr-auto p-2 ${style.bgb}`} href="#">Travel Diaries</a>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
